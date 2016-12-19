@@ -1,15 +1,15 @@
 package hello;
 
 public class Subtraction {
-	private final int x;
-	private final int y;
+	private final float x;
+	private final float y;
 	
-	public Subtraction (int x, int y) {
+	public Subtraction (float x, float y) {
 		this.x = x;
 		this.y = y;
 	}
 	
-	public long getDifference() {
+	public double getDifference() {
 		return x - y;
 	}
 	

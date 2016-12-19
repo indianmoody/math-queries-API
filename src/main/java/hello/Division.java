@@ -1,15 +1,15 @@
 package hello;
 
 public class Division {
-	private final int x;
-	private final int y;
+	private final float x;
+	private final float y;
 	
-	public Division (int x, int y) {
+	public Division (float x, float y) {
 		this.x = x;
 		this.y = y;
 	}
 	
-	public long getDivision() {
+	public double getDivision() {
 		try {
 			return x/y;
 		}

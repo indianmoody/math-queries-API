@@ -1,15 +1,15 @@
 package hello;
 
 public class Addition {
-	private final int x;
-	private final int y;
+	private final float x;
+	private final float y;
 	
-	public Addition (int x, int y) {
+	public Addition (float x, float y) {
 		this.x = x;
 		this.y = y;
 	}
 	
-	public long getSum() {
+	public double getSum() {
 		return x + y;
 	}
 	

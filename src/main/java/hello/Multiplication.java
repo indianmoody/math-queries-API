@@ -1,15 +1,15 @@
 package hello;
 
 public class Multiplication {
-	private final int x;
-	private final int y;
+	private final float x;
+	private final float y;
 	
-	public Multiplication (int x, int y) {
+	public Multiplication (float x, float y) {
 		this.x = x;
 		this.y = y;
 	}
 	
-	public long getProduct() {
+	public double getProduct() {
 		return x * y;
 	}
 	
