@@ -23,4 +23,9 @@ public class QueryController {
         return new Multiplication(num1, num2);
     }
 	
+	@RequestMapping("/divide")
+    public Division division(@RequestParam(value="num1", defaultValue="5") int num1, @RequestParam(value="num2", defaultValue="5") int num2) {
+        return new Division(num1, num2);
+    }
+	
 }
