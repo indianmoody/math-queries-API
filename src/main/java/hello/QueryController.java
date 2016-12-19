@@ -18,4 +18,9 @@ public class QueryController {
         return new Subtraction(num1, num2);
     }
 	
+	@RequestMapping("/multiply")
+    public Multiplication multiplication(@RequestParam(value="num1", defaultValue="5") int num1, @RequestParam(value="num2", defaultValue="5") int num2) {
+        return new Multiplication(num1, num2);
+    }
+	
 }
