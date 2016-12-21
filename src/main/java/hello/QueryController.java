@@ -28,4 +28,9 @@ public class QueryController {
         return new Division(num1, num2);
     }
 	
+	@RequestMapping("/factorial")
+    public Factorial factorial(@RequestParam(value="num", defaultValue="5") int num) {
+        return new Factorial(num);
+    }
+	
 }
